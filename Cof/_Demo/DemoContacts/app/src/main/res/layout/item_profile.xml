@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <TextView
+                android:gravity="center"
+                android:text="ID"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/tv_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Name"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_weight="1"
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:text="Phone"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_weight="1"
+                android:id="@+id/tv_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:text="Email"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

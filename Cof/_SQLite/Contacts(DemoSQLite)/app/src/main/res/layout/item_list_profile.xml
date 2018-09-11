@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#318ec7"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_item_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ID"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#64b180"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:text="Name"
+            android:layout_marginLeft="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tv_item_phone_number"
+            android:text="Phone Number"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tv_item_address"
+            android:text="Address"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tv_item_email"
+            android:text="Email"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

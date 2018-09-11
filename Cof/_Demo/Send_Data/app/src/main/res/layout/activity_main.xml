@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tv_Home"
+        android:text="Main Activity"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:id="@+id/btn_Home"
+        android:layout_weight="2"
+        android:onClick="SEND_HOME"
+        android:text="SEND"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#65a184"/>
+    <FrameLayout
+        android:id="@+id/fl_A"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <fragment
+            android:id="@+id/fragment_a"
+            android:name="com.cof.stdio_hue.send_data.FragmentA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_B"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <fragment
+            android:id="@+id/fragment_b"
+            android:name="com.cof.stdio_hue.send_data.FragmentB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>
